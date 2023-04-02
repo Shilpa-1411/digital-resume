@@ -460,6 +460,13 @@ header .navbar ul li a:hover{
     color: #fff;
 }
 
+.extra h4{
+    color: #160458;
+    padding-left: 50rem;
+    text-shadow: #1f413c;
+    font-size: 1rem;
+}
+
 .contact .row{
     display: flex;
     align-items: center;
