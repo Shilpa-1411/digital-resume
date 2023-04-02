@@ -315,25 +315,6 @@ header .navbar ul li a:hover{
     padding-left: 30rem;
 }
 
-.technical .row .info{
-    flex: 1 1 48rem;
-    padding: 2rem 1rem;
-    padding-left: 32rem;
-}
-
-.technical .row .info h3{
-    font-size: 2rem;
-    color: rgb(48, 18, 9);
-    padding: 1rem 0;
-    font-weight: normal;
-}
-
-.technical .row .info h3 a{
-    color: #dce4dd;
-    padding: 0 0.1rem;
-    text-decoration: underline;
-}
-
 .technical .row .counter{
     flex: 1 1 48rem;
     display: flex;
@@ -349,13 +330,29 @@ header .navbar ul li a:hover{
     margin: 2rem;
 }
 
-/*.technical .row .counter .w3-panel w3-round-xxlarge w3-teal{
-    width: 25rem;
-    background: #f3cdcd;
+.technical .row .counter .box .icons{
+    position: relative;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.technical .row .counter .box .icons a{
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0.4rem;
+    background: #ee1616;
+    color: #f1eaea;
     text-align: center;
-    padding: 2rem;
-    margin: 2rem;
-}*/
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.technical .row .counter .box .icons a:hover{
+    background: #f3cdcd;
+    color: #0e0909;
+}
 
 .technical .row .counter .box span{
     font-size: 2rem;
