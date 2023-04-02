@@ -77,38 +77,38 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background: #d5e9be;
+    background: #c788cf;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    animation: bgcolor infinite 7s;
+    animation: bgcolor infinite 5s;
     /*overflow-y: scroll;*/
 }
 
 @keyframes bgcolor{
-    0%{
-        background: #452e97,
-    }
     10%{
-        background: #c28eda,
+        background: #b07bc9,
     }
-    25%{
-        background: #c28be2,
-    }
-    40%{
+    20%{
         background: #a344da,
     }
-    55%{
-        background: #7a35b3,
+    35%{
+        background: #9b42b1,
     }
-    70%{
-        background: #7f3cbe;
+    50%{
+        background: #6a2b83,
+    }
+    60%{
+        background: #6a2b83,
+    }
+    75%{
+        background: #9b42b1;
     }
     90%{
-        background: #6a2b83;
+        background: #a344da;
     }
     100%{
-        background: #6e298a;
+        background: #b07bc9;
     }
 }
 
