@@ -529,6 +529,10 @@ header .navbar ul li a:hover{
     color: #a2e20c;
 }
 
+.contact .row form{
+    margin: 3rem 0;
+}
+
 @media (max-width:1200px){
     html{
         font-size: 55%;
@@ -569,6 +573,4 @@ header .navbar ul li a:hover{
     }
 }
 
-.contact .row form{
-    margin: 3rem 0;
-}
+
