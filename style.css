@@ -77,10 +77,41 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background: #633af7;
+    background: #d5e9be;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    animation: bgcolor infinite 7s;
     /*overflow-y: scroll;*/
 }
+
+@keyframes bgcolor{
+    0%{
+        background: #452e97,
+    }
+    10%{
+        background: #c28eda,
+    }
+    25%{
+        background: #c28be2,
+    }
+    40%{
+        background: #a344da,
+    }
+    55%{
+        background: #7a35b3,
+    }
+    70%{
+        background: #7f3cbe;
+    }
+    90%{
+        background: #6a2b83;
+    }
+    100%{
+        background: #6e298a;
+    }
+}
+
 
 .home h3{
     position: relative;
