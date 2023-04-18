@@ -168,7 +168,7 @@ section{
     position: absolute;
     right: 100px;
     top: 200px;
-    left: 300px;
+    left: 100px;
     font-size: 2.5rem;
     color: #e8eee3;
 }
@@ -177,7 +177,7 @@ section{
     position: absolute;
     right: 100px;
     top: 230px;
-    left: 120px;
+    left: 100px;
     text-align: right;
     font-size: 3.5rem;
     color: #03070c;
