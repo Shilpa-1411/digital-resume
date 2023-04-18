@@ -589,6 +589,14 @@ header .navbar ul li a:hover{
     .home{
         padding: 1rem 4rem;
     }
+    body{
+        
+        padding-left: 0.5rem;
+    }
+    .home{
+        padding: 0.1rem 0.4rem;
+        font-size: 50%;
+    }
 }
 
 @media (max-width:991px){
@@ -599,25 +607,78 @@ header .navbar ul li a:hover{
     #menu{
         display: block;
     }
-
+    
     header.toggle{
         left: 0%;
     }
+    html{
+        font-size: 40%;
+    }
 
     body{
-        padding: 0;
+        
+        padding-left: 0.5rem;
+    }
+    .home{
+        padding: 0.1rem 0.4rem;
+        font-size: 40%;
     }
 }
 
 @media (max-width:768px){
     html{
-        font-size: 50%;
+        font-size: 30%;
+        /*padding: 10px;*/
     }
+    body{
+        
+        padding-left: 0.5rem;
+    }
+    .home{
+        padding: 0.1rem 0.4rem;
+        font-size: 30%;
+    }
+    .home h1 span{
+        padding-left: 0.5rem;
+    }
+    .home h1 span{
+        padding-left: 0rem;
+    }
+    
 }
 
 @media (max-width:400px){
     header{
         width: 100vw;
+        font-size: 25%;
+    }
+    body{
+        
+        padding-left: 0.5rem;
+    }
+    .home{
+        padding: 0.1rem 0.4rem;
+        font-size: 20%;
+    }
+   
+}
+
+@media (max-width:100px){
+    header{
+        width: 25vw;
+    }
+    body{
+        padding-left: 0.5rem;
+    }
+    .home{
+        padding: 0.1rem 0.4rem;
+        font-size: 10%;
+    }
+    .home h1 span{
+        padding-left: 0.5rem;
+    }
+    .home h1 span{
+        padding-left: 0rem;
     }
 }
 
