@@ -113,13 +113,6 @@ body{
 }
 
 
-.home h3{
-    position: relative;
-    -webkit-box-reflect: below 0rem linear-gradient(transparent,black);
-    outline: none;
-    animation: animate 5s linear infinite;
-}
-
 @keyframes animate{
     0%, 10%, 15%, 30%, 50%, 80%, 90% {
         color: #0e3742;
@@ -161,6 +154,14 @@ section{
     align-items: center;
     padding: 0 15rem;
 }
+
+.home h3{
+    position: absolute;
+    -webkit-box-reflect: below 0rem linear-gradient(transparent,black);
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+
 
 .home h3{
     text-align: right;
