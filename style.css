@@ -77,38 +77,44 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background: #c788cf;
+    background: #a550b1;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    animation: bgcolor infinite 5s;
+    animation: bgcolor infinite 6s;
     /*overflow-y: scroll;*/
 }
 
 @keyframes bgcolor{
     10%{
-        background: #b07bc9,
+        background: #78448f,
     }
     20%{
-        background: #a344da,
+        background: #7f16bd,
     }
-    35%{
-        background: #9b42b1,
+    30%{
+        background: #632eb8,
+    }
+    40%{
+        background: #9728b3,
     }
     50%{
-        background: #6a2b83,
+        background: #421f94,
     }
     60%{
-        background: #6a2b83,
+        background: #6e2eb8;
     }
-    75%{
-        background: #9b42b1;
+    70%{
+        background: #7b28b3;
+    }
+    80%{
+        background: #632eb8;
     }
     90%{
-        background: #a344da;
+        background: #78448f;
     }
     100%{
-        background: #b07bc9;
+        background: #a550b1;
     }
 }
 
