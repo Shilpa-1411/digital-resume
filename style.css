@@ -109,7 +109,7 @@ body button{
     font-size: 8px;
     padding: 20px;
     /*padding-left: 200px;*/
-    text-align: right;
+    text-align: center;
     color: #ffffff;
     background: #0a050e;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
@@ -616,6 +616,9 @@ header .navbar ul li a:hover{
         padding: 0.1rem 0.4rem;
         font-size: 40%;
     }
+    .datetime{
+    width: 1000px;
+    }
 }
 
 @media (max-width:768px){
@@ -637,6 +640,9 @@ header .navbar ul li a:hover{
     .home h1 span{
         padding-left: 0rem;
     }
+    .datetime{
+    width: 700px;
+    }
     
 }
 
@@ -652,6 +658,9 @@ header .navbar ul li a:hover{
     .home{
         padding: 0.1rem 0.4rem;
         font-size: 20%;
+    }
+    .datetime{
+    width: 500px;
     }
    
 }
@@ -672,6 +681,9 @@ header .navbar ul li a:hover{
     }
     .home h1 span{
         padding-left: 0rem;
+    }
+    .datetime{
+    width: 250px;
     }
 }
 
