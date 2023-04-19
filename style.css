@@ -19,43 +19,6 @@
     color: #333;
 }
 
-/*.wave{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-
-label{
-    font-size: 10px;
-    font-weight: 500;
-    color: #fff;
-    cursor: pointer;
-}
-
-label span{
-    display: inline-block;
-    font-weight: 500;
-    font-size: 10px;
-    transition: 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55));
-}
-
-label:hover span{
-    color: black;
-    transform: translateY((-3px));
-}
-
-/*.hero{
-    position: absolute;
-    height: 10rem;
-    width: 10rem;
-    padding-right: 90rem;
-    padding-top: 30rem;
-    padding-bottom: 30rem;
-}*/
-
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -137,11 +100,7 @@ body{
 body button{
     background-color: #03070c;
     color: #03bcf4;
-    padding-left: 5rem;
-    padding-top: 50r;
-    padding-right: 2rem;
-    padding-bottom: 50rem;
-    padding: 10px;
+    padding: 8px;
     align-self: center;
 }
 
