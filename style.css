@@ -446,9 +446,9 @@ header .navbar ul li a:hover{
 }
 
 .extra .box-container .box{
-    flex: 1 1 30rem;
+    flex: 1 1 25rem;
     height: 20rem;
-    width: 11rem;
+    width: 9rem;
     position: relative;
     overflow: hidden;
     border: 1rem solid #e4e00a;
@@ -457,7 +457,7 @@ header .navbar ul li a:hover{
 
 .extra .box-container .box img{
     height: 100%;
-    width: 90%;
+    width: 100%;
     /*object-fit: cover;*/
     border-radius: 0.4rem;
     position: relative;
